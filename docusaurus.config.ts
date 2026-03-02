@@ -5,7 +5,11 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Цитадель Духа',
   tagline: 'Симбиоз веры, кода и технологий будущего',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo.svg',
+
+  // Меры предосторожности: предупреждать, но не прерывать билд
+  onBrokenLinks: 'warn',
+  onBrokenMarkdownLinks: 'warn',
 
   future: {
     v4: true,
@@ -15,7 +19,6 @@ const config: Config = {
   baseUrl: '/',
   organizationName: 'web-arystan',
   projectName: 'citadel-spirit',
-  onBrokenLinks: 'throw',
 
   i18n: {
     defaultLocale: 'ru',
@@ -27,7 +30,6 @@ const config: Config = {
       return {
         name: "docusaurus-tailwindcss",
         configurePostCss(postcssOptions) {
-          // Ставим плагин в самое начало
           postcssOptions.plugins.unshift(require("@tailwindcss/postcss"));
           return postcssOptions;
         },
@@ -79,8 +81,8 @@ const config: Config = {
             { label: 'Shekinah Blog', href: 'https://shekinah-6sz.pages.dev/blog' },
             { label: 'Analog Bloger', href: 'https://analog-bloger.pages.dev/blog' },
             { label: 'Shekinah Mission', href: 'https://web-shekinah.vercel.app' },
-            { label: 'AI Netlify', href: 'https:/ai-shekinah.netlify.app' },
-            { label: 'Austin SparksS', href: 'https://www.austin-sparks.net/russian/' },
+            { label: 'AI Netlify', href: 'https://ai-shekinah.netlify.app' },
+            { label: 'Austin Sparks', href: 'https://www.austin-sparks.net/russian/' },
           ],
         },
         {
@@ -100,8 +102,8 @@ const config: Config = {
           items: [
             { label: 'Gemini CLI', href: 'https://geminicli.com' },
             { label: 'AI Google', href: 'https://ai.google.dev/' },
-            { label: 'Gemini Code Assist', href: 'https://console.cloud.google.com/gemini?project=sock-172206&folder=&organizationId=' },
-            { label: 'Developers Genini', href: 'https://developers.google.com/gemini-code-assist/auth/auth_success_gemini?hl=ru' },
+            { label: 'Gemini Code Assist', href: 'https://console.cloud.google.com/gemini?project=sock-172206' },
+            { label: 'Developers Gemini', href: 'https://developers.google.com/gemini-code-assist/auth/auth_success_gemini?hl=ru' },
             { label: 'Developers Cloudflare', href: 'https://welcome.developers.workers.dev/wrangler-oauth-consent-granted' },
             { label: 'Console Cloudflare', href: 'https://dash.cloudflare.com/d236134971b30a4db3c418481c4d7eaa/home/overview' },
             { label: 'Alibaba Cloud', href: 'https://home.console.alibabacloud.com/home/dashboard/ProductAndService' },

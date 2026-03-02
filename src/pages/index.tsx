@@ -145,7 +145,7 @@ export default function Home(): ReactNode {
     <Link to="https://ai.dessyatykh.workers.dev" style={{ color: '#34d399', fontFamily: 'monospace', textDecoration: 'none', fontSize: '0.8rem' }}>[ AI ]</Link>
     <Link to="https://ai-lev.versel.app" style={{ color: '#34d399', fontFamily: 'monospace', textDecoration: 'none', fontSize: '0.8rem' }}>[ AI Verceel ]</Link>
     <Link to="https://ai-shekinah.netlify.app" style={{ color: '#34d399', fontFamily: 'monospace', textDecoration: 'none', fontSize: '0.8rem' }}>[ AI Netlify ]</Link>
-    <Link to="http://127.0.0.1:3080/notes/" style={{ color: '#34d399', fontFamily: 'monospace', textDecoration: 'none', fontSize: '0.8rem' }}>[ Open AI ]</Link>
+    <Link to="http://127.0.0.1:3080/notes/" style={{ color: '#34d399', fontFamily: 'monospace', textDecoration: 'none', fontSize: '0.8rem' }}>[ Open WebUI ]</Link>
     <Link to="https://journal-webarystan.vercel.app/" style={{ color: '#34d399', fontFamily: 'monospace', textDecoration: 'none', fontSize: '0.8rem' }}>[ ЖУРНАЛЫ ]</Link>
     </div>
     </div>
