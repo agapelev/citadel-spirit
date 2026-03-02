@@ -74,7 +74,9 @@ const config: Config = {
         {
           title: 'Экосистема Shekinah',
           items: [
+            { label: 'Shekinah Blog', href: 'https://shekinah-6sz.pages.dev' },
             { label: 'Shekinah Blog', href: 'https://shekinah-6sz.pages.dev/blog' },
+            { label: 'Analog Bloger', href: 'https://analog-bloger.pages.dev/blog' },
             { label: 'Cloud Services', href: 'https://shekinah-cloud.vercel.app' },
           ],
         },
@@ -82,12 +84,18 @@ const config: Config = {
           title: 'Цифровые Архивы',
           items: [
             { label: 'Analog Bloger', href: 'https://analog-bloger.pages.dev/blog' },
+            { label: 'Cloud Services', href: 'https://shekinah-cloud.vercel.app' },
+            { label: 'Cloud Services', href: 'https://shekinah-cloud.vercel.app' },
+            { label: 'Cloud Services', href: 'https://shekinah-cloud.vercel.app' },
           ],
         },
         {
           title: 'Поддержка',
           items: [
             { label: 'Gemini CLI', href: 'https://geminicli.com' },
+            { label: 'AI Gemini', href: 'https://ai.geminicli.com' },
+            { label: 'Gemini CLI', href: 'https://geminicli.com' },
+            { label: 'AI Gemini', href: 'https://ai.geminicli.com' },
           ],
         },
       ],
