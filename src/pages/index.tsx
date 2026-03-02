@@ -137,7 +137,15 @@ export default function Home(): ReactNode {
     <Link to="/docs/intro" style={{ color: '#34d399', fontFamily: 'monospace', textDecoration: 'none', fontSize: '0.8rem' }}>[ ДОКУМЕНТАЦИЯ ]</Link>
     <Link to="/blog" style={{ color: '#34d399', fontFamily: 'monospace', textDecoration: 'none', fontSize: '0.8rem' }}>[ МЫСЛИ ]</Link>
     <Link to="https://geminicli.com" style={{ color: '#34d399', fontFamily: 'monospace', textDecoration: 'none', fontSize: '0.8rem' }}>[ ПОМОЩЬ AI ]</Link>
+    <Link to="https://copilot.microsoft.com/discover" style={{ color: '#34d399', fontFamily: 'monospace', textDecoration: 'none', fontSize: '0.8rem' }}>[ Copilot ]</Link>
+    <Link to="https://claude.ai/new" style={{ color: '#34d399', fontFamily: 'monospace', textDecoration: 'none', fontSize: '0.8rem' }}>[ Cloude ]</Link>
+    <Link to="https://chat.mistral.ai/chat" style={{ color: '#34d399', fontFamily: 'monospace', textDecoration: 'none', fontSize: '0.8rem' }}>[ Mistral ]</Link>
+    <Link to="https://chat.qwen.ai" style={{ color: '#34d399', fontFamily: 'monospace', textDecoration: 'none', fontSize: '0.8rem' }}>[ Qwen ]</Link>
+    <Link to="https://chat.deepseek.com/a/chat/" style={{ color: '#34d399', fontFamily: 'monospace', textDecoration: 'none', fontSize: '0.8rem' }}>[ DeepSeek ]</Link>
     <Link to="https://ai.dessyatykh.workers.dev" style={{ color: '#34d399', fontFamily: 'monospace', textDecoration: 'none', fontSize: '0.8rem' }}>[ AI ]</Link>
+    <Link to="ai-lev.versel.app" style={{ color: '#34d399', fontFamily: 'monospace', textDecoration: 'none', fontSize: '0.8rem' }}>[ AI Verceel ]</Link>
+    <Link to="https://ai-shekinah.netlify.app" style={{ color: '#34d399', fontFamily: 'monospace', textDecoration: 'none', fontSize: '0.8rem' }}>[ AI Netlify ]</Link>
+    <Link to="http://127.0.0.1:3080/notes/" style={{ color: '#34d399', fontFamily: 'monospace', textDecoration: 'none', fontSize: '0.8rem' }}>[ Open AI ]</Link>
     <Link to="https://journal-webarystan.vercel.app/" style={{ color: '#34d399', fontFamily: 'monospace', textDecoration: 'none', fontSize: '0.8rem' }}>[ ЖУРНАЛЫ ]</Link>
     </div>
     </div>

@@ -11,10 +11,10 @@ const config: Config = {
     v4: true,
   },
 
-  url: 'https://shekinah-docusaurus.vercel.app',
+  url: 'https://citadel-spirit.pages.dev',
   baseUrl: '/',
   organizationName: 'web-arystan',
-  projectName: 'citadel-docusaurus',
+  projectName: 'citadel-spirit',
   onBrokenLinks: 'throw',
 
   i18n: {
@@ -41,11 +41,11 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/web-arystan/citadel-docusaurus/tree/main/',
+          editUrl: 'https://github.com/agapelev/citadel-spirit/tree/main/',
         },
         blog: {
           showReadingTime: true,
-          editUrl: 'https://github.com/web-arystan/citadel-docusaurus/tree/main/',
+          editUrl: 'https://github.com/agapelev/citadel-spirit/tree/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -74,32 +74,41 @@ const config: Config = {
         {
           title: 'Экосистема Shekinah',
           items: [
-            { label: 'Shekinah Blog', href: 'https://shekinah-6sz.pages.dev' },
+            { label: 'Shekinah Cloud', href: 'https://shekinah-6sz.pages.dev' },
+            { label: 'Shekinah Academy', href: 'https://mission-shekinah.netlify.app' },
             { label: 'Shekinah Blog', href: 'https://shekinah-6sz.pages.dev/blog' },
             { label: 'Analog Bloger', href: 'https://analog-bloger.pages.dev/blog' },
-            { label: 'Cloud Services', href: 'https://shekinah-cloud.vercel.app' },
+            { label: 'Shekinah Mission', href: 'https://web-shekinah.vercel.app' },
+            { label: 'AI Netlify', href: 'https:/ai-shekinah.netlify.app' },
+            { label: 'Austin SparksS', href: 'https://www.austin-sparks.net/russian/' },
           ],
         },
         {
           title: 'Цифровые Архивы',
           items: [
-            { label: 'Analog Bloger', href: 'https://analog-bloger.pages.dev/blog' },
-            { label: 'Cloud Services', href: 'https://shekinah-cloud.vercel.app' },
-            { label: 'Cloud Services', href: 'https://shekinah-cloud.vercel.app' },
-            { label: 'Cloud Services', href: 'https://shekinah-cloud.vercel.app' },
+            { label: 'SaaS Web Arystan', href: 'https://web-mission.vercel.app' },
+            { label: 'Next.js Mantine', href: 'https://shekinah-sock.vercel.app' },
+            { label: 'Astro Svelte', href: 'https://shekinah-cloud.vercel.app' },
+            { label: 'TailwindBlog 2.0', href: 'https://shekinah-blog.vercel.app' },
+            { label: 'Astro DocKit', href: 'https://mission-shekinah.vercel.app' },
+            { label: 'AI Vercels', href: 'https://ai-lev.vercel.app' },
+            { label: 'School of Christ', href: 'https://schoolofchrist.org/history/' },
           ],
         },
         {
           title: 'Поддержка',
           items: [
             { label: 'Gemini CLI', href: 'https://geminicli.com' },
-            { label: 'AI Gemini', href: 'https://ai.geminicli.com' },
-            { label: 'Gemini CLI', href: 'https://geminicli.com' },
-            { label: 'AI Gemini', href: 'https://ai.geminicli.com' },
+            { label: 'AI Google', href: 'https://ai.google.dev/' },
+            { label: 'Gemini Code Assis', href: 'https://console.cloud.google.com/gemini?project=sock-172206&folder=&organizationId=' },
+            { label: 'Developers Genini', href: 'https://developers.google.com/gemini-code-assist/auth/auth_success_gemini?hl=ru' },
+            { label: 'Developers Cloudflare', href: 'https://welcome.developers.workers.dev/wrangler-oauth-consent-granted' },
+            { label: 'Console Cloudflare', href: 'https://dash.cloudflare.com/d236134971b30a4db3c418481c4d7eaa/home/overview' },
+            { label: 'Alibaba Cloud', href: 'https://home.console.alibabacloud.com/home/dashboard/ProductAndService' },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Цитадель Духа | Web Arystan. Soli Deo Gloria.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Цитадель Духа | WDS Web Arystan. Kazakhstan. Слава одному Богу!`,
     },
     prism: {
       theme: prismThemes.github,
