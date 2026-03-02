@@ -2,6 +2,7 @@
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
+# Shekinah Cloud Mission & Web Development Studio "Web Arystan"
 ## Installation
 
 ```bash
