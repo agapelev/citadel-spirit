@@ -2,7 +2,7 @@ lev:
   name: Lev Dessyatykh
   title: Web Developer & Engineer, Co-founder Web Development Web Arystan
   url: https://analog-bloger.pages.dev/blog
-  image_url: img/web.jpg
+  image_url: https://github.com/agapelev/lev-dev/tree/main/imeges/web.jpg
   page: true
   socials:
     x: agapelev
@@ -14,7 +14,7 @@ shekinah:
   name: Shekinah Cloud Mission
   title: Shekinah Cloud Mission & School of Christ
   url: https://shekinah-6sz.pages.dev/
-  image_url: img/logo.jpg
+  image_url: https://github.com/agapelev/lev-dev/tree/main/imeges/logo.jpg
   page:
     # customize the url of the author page at /blog/authors/<permalink>
     permalink: '/all-sebastien-lorber-articles'
