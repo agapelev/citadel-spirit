@@ -1,0 +1,71 @@
+# 🟢 Основные зависимости (Dependencies)
+node_modules/
+.pnpm-store/
+jspm_packages/
+
+# 🏗️ Специфические папки Analog.js / Angular / Vite
+.analog/
+.nitro/
+.output/
+dist/
+/out-tsc
+/bazel-out
+/.angular/cache
+/.nx/cache
+/.nx/workspace-data
+
+# 📝 Contentlayer & Кэш (Важно для вашего блога)
+.contentlayer/
+.cache-loader/
+.sass-cache/
+/tmp
+/out
+
+# 🔐 Секреты и Окружение (Environment)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.sample
+*.env*
+
+# 🛠️ IDE и Редакторы (IDEs & Editors)
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+.history/
+/typings
+
+# 💻 Настройки VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# 🍎 Системные файлы (System Files)
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+desktop.ini
+
+# ログ Логи (Logs)
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+testem.log
+/libpeerconnection.log
+
+# 🧪 Тестирование и отчеты
+/coverage
+/connect.lock
+
+# 📜 Документация (Docusaurus/Misc)
+.docusaurus

@@ -1,0 +1,91 @@
+/**
+ * Цитадель Духа: Финальный Дизайн 2026
+ * СТАБИЛИЗИРОВАННАЯ ВЕРСИЯ: Без конфликтов с сеткой
+ */
+
+/* 1. ПРЯМОЙ ИМПОРТ ТОЛЬКО УТИЛИТ (Это спасет подвал и плитки) */
+@import "tailwindcss/theme" layer(theme);
+@import "tailwindcss/utilities" layer(utilities);
+
+/* 2. РЕГИСТРАЦИЯ ТЕМЫ ВНУТРИ СЛОЯ ТАЙЛВИНДА */
+@theme {
+  --color-citadel-base: #0f011a;
+  --color-citadel-deep: #050008;
+  --color-citadel-cyan: #22d3ee;
+  --color-citadel-purple: #a855f7;
+}
+
+/* 3. БАЗОВЫЕ ПЕРЕМЕННЫЕ DOCUSAURUS */
+:root {
+  --ifm-color-primary: #22d3ee;
+  --ifm-code-font-size: 90%;
+  --ifm-font-family-base: 'Inter', system-ui, -apple-system, sans-serif;
+  --ifm-heading-font-family: 'Georgia', serif;
+}
+
+/* 4. КАСТОМНЫЕ СТИЛИ (С ПРИОРИТЕТОМ) */
+html[data-theme='dark'] body {
+  background-color: var(--color-citadel-base) !important;
+  color: #e2e8f0;
+}
+
+[data-theme='dark'] {
+  --ifm-background-color: var(--color-citadel-base) !important;
+  --ifm-navbar-background-color: #150022 !important;
+  --ifm-footer-background-color: var(--color-citadel-deep) !important;
+  --ifm-card-background-color: #1a012e;
+  --ifm-hero-background: linear-gradient(180deg, #150022 0%, #0f011a 100%);
+}
+
+/* Исправление подвала, который "разъехался" */
+.footer {
+  display: block !important; /* Гарантируем возврат к модели Docusaurus */
+}
+
+[data-theme='dark'] .footer {
+  background-color: var(--color-citadel-deep) !important;
+  border-top: 2px solid #2e1065 !important;
+  color: #94a3b8 !important;
+}
+
+.footer__title {
+  color: var(--color-citadel-purple) !important;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.footer__link-item {
+  color: var(--color-citadel-cyan) !important;
+  text-decoration: none;
+}
+
+.footer__link-item:hover {
+  color: #ffffff !important;
+  padding-left: 8px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Стили заголовка Hero */
+.hero__title {
+  background: linear-gradient(90deg, #22d3ee, #a855f7, #ec4899, #22d3ee);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 5s linear infinite;
+}
+
+@keyframes shine { to { background-position: 200% center; } }
+
+/* Скроллбар */
+::-webkit-scrollbar { width: 10px; }
+::-webkit-scrollbar-track { background: var(--color-citadel-base); }
+::-webkit-scrollbar-thumb {
+  background: #2e1065;
+  border-radius: 10px;
+  border: 2px solid var(--color-citadel-base);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-citadel-cyan);
+}
