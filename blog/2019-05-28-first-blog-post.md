@@ -1,7 +1,7 @@
 ---
 slug: first-blog-post
-title: First Blog Post
-authors: [slorber, yangshun]
+title: Первая запись в блоге
+authors: [lev, shekinah]
 tags: [hola, docusaurus]
 ---
 

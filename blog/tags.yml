@@ -1,7 +1,7 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+shekinah:
+  label: Shekinah
+  permalink: /shekinah
+  description: Shekinah tag description
 
 hello:
   label: Hello
@@ -13,7 +13,7 @@ docusaurus:
   permalink: /docusaurus
   description: Docusaurus tag description
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+mission:
+  label: Mission
+  permalink: /mission
+  description: Mission tag description

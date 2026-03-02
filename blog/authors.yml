@@ -1,25 +1,25 @@
-yangshun:
-  name: Yangshun Tay
-  title: Ex-Meta Staff Engineer, Co-founder GreatFrontEnd
-  url: https://linkedin.com/in/yangshun
-  image_url: https://github.com/yangshun.png
+lev:
+  name: Lev Dessyatykh
+  title: Web Developer & Engineer, Co-founder Web Development Web Arystan
+  url: https://analog-bloger.pages.dev/blog
+  image_url: img/web.jpg
   page: true
   socials:
-    x: yangshunz
-    linkedin: yangshun
-    github: yangshun
+    x: agapelev
+    linkedin: agapelev
+    github: agapelev
     newsletter: https://www.greatfrontend.com
 
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
+shekinah:
+  name: Shekinah Cloud Mission
+  title: Shekinah Cloud Mission & School of Christ
+  url: https://shekinah-6sz.pages.dev/
+  image_url: img/logo.jpg
   page:
     # customize the url of the author page at /blog/authors/<permalink>
     permalink: '/all-sebastien-lorber-articles'
   socials:
-    x: sebastienlorber
-    linkedin: sebastienlorber
-    github: slorber
-    newsletter: https://thisweekinreact.com
+    x: shekinah
+    linkedin: shekinah
+    github: webarystan
+    newsletter: https://mission-shekinah.netlify.app/

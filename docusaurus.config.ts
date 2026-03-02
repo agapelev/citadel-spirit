@@ -9,7 +9,7 @@ const config: Config = {
 
   // Меры предосторожности: предупреждать, но не прерывать билд
   onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenMarkdownLinks: 'warn', // Оставляем здесь, Docusaurus v3 это еще понимает
 
   future: {
     v4: true,
