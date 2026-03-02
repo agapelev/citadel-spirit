@@ -100,7 +100,7 @@ const config: Config = {
           items: [
             { label: 'Gemini CLI', href: 'https://geminicli.com' },
             { label: 'AI Google', href: 'https://ai.google.dev/' },
-            { label: 'Gemini Code Assis', href: 'https://console.cloud.google.com/gemini?project=sock-172206&folder=&organizationId=' },
+            { label: 'Gemini Code Assist', href: 'https://console.cloud.google.com/gemini?project=sock-172206&folder=&organizationId=' },
             { label: 'Developers Genini', href: 'https://developers.google.com/gemini-code-assist/auth/auth_success_gemini?hl=ru' },
             { label: 'Developers Cloudflare', href: 'https://welcome.developers.workers.dev/wrangler-oauth-consent-granted' },
             { label: 'Console Cloudflare', href: 'https://dash.cloudflare.com/d236134971b30a4db3c418481c4d7eaa/home/overview' },
