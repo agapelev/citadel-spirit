@@ -1,0 +1,169 @@
+    Shekinah Mission
+    School of Christ
+    Shekinah Blog
+    AI
+
+← К выбору журналов
+Выбран: 🧠 AI Insights
+Записать новое событие
+Спросите Gemini о ваших записях
+Идеи для вопросов:
+
+    Обзор успехов за неделю
+    Анализ сложностей
+    Совет по обучению
+
+💾 Управление записями
+Летопись событий:
+2026-03-03
+⚙️ CONFIG
+status: Logged
+⚙️ CONFIG
+
+Перекодировка аудио файла:
+
+ffmpeg -i ~/citadel-spirit/static/audio/01-conflict/1-svidetelstvo-zhizni.mp3 \
+
+-ar 44100 -ac 2 -codec:a libmp3lame -b:a 128k \
+
+~/citadel-spirit/static/audio/01-conflict/1-svidetelstvo-zhizni-fixed.mp3
+
+Проверка
+
+Открой новый файл напрямую в браузере:
+
+http://localhost:3000/audio/01-conflict/1-svidetelstvo-zhizni-fixed.mp3
+
+Если звук есть — значит проблема решена.
+
+Подставь его в код:
+
+<audio
+
+src="/audio/01-conflict/1-svidetelstvo-zhizni-fixed.mp3"
+
+controls
+
+style={{ width: '100%', maxWidth: '400px' }}
+
+></audio>
+
+2. Пакетная перекодировка аудио:
+
+Лев, твой скрипт вполне справится даже с таким многоуровневым каталогом — нужно только правильно задать обход всех вложенных папок. Для этого лучше использовать find или рекурсивный обход в bash/zsh.
+
+#!/bin/bash
+
+# Корневая папка, где лежат все серии и уроки
+
+ROOT_DIR=~/citadel-spirit/static/audio
+
+# Обход всех mp3 файлов во вложенных папках
+
+find "$ROOT_DIR" -type f -name "*.mp3" | while read -r file; do
+
+echo "Перекодирую: $file"
+
+# Создаём новый файл с суффиксом -fixed.mp3
+
+ffmpeg -y -i "$file" -ar 44100 -ac 2 -codec:a libmp3lame -b:a 128k "${file%.mp3}-fixed.mp3"
+
+done
+
+Понял, Лев 👍
+
+Для fish shell можно сделать аккуратный скрипт, который рекурсивно обходит все вложенные каталоги и перекодирует каждый .mp3 в стандартный формат (44.1 kHz, стерео, 128k). Вот рабочий вариант:
+
+#!/usr/bin/env fish
+
+# Корневая папка, где лежат все серии и уроки
+
+set ROOT_DIR ~/citadel-spirit/static/audio
+
+# Ищем все mp3 во вложенных каталогах
+
+for file in (find $ROOT_DIR -type f -name "*.mp3")
+
+echo "Перекодирую: $file"
+
+# Создаём временный файл рядом
+
+set fixed (string replace ".mp3" "-fixed.mp3" $file)
+
+ffmpeg -y -i $file -ar 44100 -ac 2 -codec:a libmp3lame -b:a 128k $fixed
+
+end
+
+---------
+
+#!/usr/bin/env fish
+
+# Корневая папка, где лежат все серии и уроки
+
+set ROOT_DIR ~/citadel-spirit/static/audio
+
+# Ищем все mp3 во вложенных каталогах
+
+for file in (find $ROOT_DIR -type f -name "*.mp3")
+
+echo "Перекодирую: $file"
+
+# Создаём временный файл рядом
+
+set fixed (string replace ".mp3" "-fixed.mp3" $file)
+
+ffmpeg -y -i $file -ar 44100 -ac 2 -codec:a libmp3lame -b:a 128k $fixed
+
+end
+
+---------
+
+После проверки качества можно заменить оригинальные файлы так:
+
+for fixed in (find $ROOT_DIR -type f -name "*-fixed.mp3")
+
+set original (string replace "-fixed.mp3" ".mp3" $fixed)
+
+mv $fixed $original
+
+end
+
+=========================
+
+Понял, Лев 🙌
+
+Вот готовый fish‑скрипт, который рекурсивно обходит все вложенные каталоги, перекодирует каждый .mp3 в стандартный формат (44.1 kHz, стерео, 128k) и заменяет оригинальные файлы прямо на месте:
+
+#!/usr/bin/env fish
+
+# Корневая папка, где лежат все серии и уроки
+
+set ROOT_DIR ~/citadel-spirit/static/audio
+
+# Ищем все mp3 во вложенных каталогах
+
+for file in (find $ROOT_DIR -type f -name "*.mp3")
+
+echo "Перекодирую: $file"
+
+# Временный файл рядом с оригиналом
+
+set tmpfile (mktemp)
+
+# Перекодировка в стандартный формат
+
+ffmpeg -y -i $file -ar 44100 -ac 2 -codec:a libmp3lame -b:a 128k $tmpfile
+
+# Заменяем оригинал новым файлом
+
+mv $tmpfile $file
+
+end
+
+=======================✅ Использование
+
+Сохрани скрипт, например, как fix-audio.fish.
+
+chmod +x fix-audio.fish
+
+===

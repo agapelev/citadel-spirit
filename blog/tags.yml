@@ -3,6 +3,46 @@ shekinah:
   permalink: /shekinah
   description: Shekinah tag description
 
+citadel-spirit:
+  label: Цитадель Духа
+  permalink: /citadel-spirit
+  description: Цитадель Духа tag description
+
+AI:
+  label: AI
+  permalink: /AI
+  description: AI tag description
+
+mission:
+  label: Mission
+  permalink: /mission
+  description: Mission tag description
+
+webdev:
+  label: WebDev
+  permalink: /webdev
+  description: WebDev tag description
+
+code:
+  label: Code
+  permalink: /code
+  description: Code tag description
+
+webstudio:
+  label: Web Studio
+  permalink: /webstudio
+  description: Web Studio tag description
+
+analog:
+  label: Analog.js
+  permalink: /analog
+  description: Analog.js tag description
+
+astro:
+  label: Astro.js
+  permalink: /astro
+  description: Astro.js tag description
+
 hello:
   label: Hello
   permalink: /hello
@@ -13,7 +53,77 @@ docusaurus:
   permalink: /docusaurus
   description: Docusaurus tag description
 
-mission:
-  label: Mission
-  permalink: /mission
-  description: Mission tag description
+hola:
+  label: Hola
+  permalink: /hola
+  description: Hola tag description
+
+nextjs:
+  label: Next.js
+  permalink: /nextjs
+  description: Next.js tag description
+
+angularjs:
+  label: Angular.js
+  permalink: /angularjs
+  description: Angular.js tag description
+
+reactjs:
+  label: React.js
+  permalink: /reactjs
+  description: React.js tag description
+
+tailwindcss:
+  label: TailwindCSS
+  permalink: /tailwindcss
+  description: TailwindCSS tag description
+
+starlight:
+  label: Starlight
+  permalink: /starlight
+  description: Starlight tag description
+
+nextra:
+  label: Nextra
+  permalink: /nextra
+  description: Nextra tag description
+
+cloud:
+  label: Cloud
+  permalink: /cloud
+  description: Cloud tag description
+
+development:
+  label: Development
+  permalink: /development
+  description: Development tag description
+
+school-of-christ:
+  label: Школа Христа
+  permalink: /school-of-christ
+  description: Школа Христа tag description
+
+mission-shekinah:
+  label: Миссия Шехина
+  permalink: /mission-shekinah
+  description: Миссия Шехина tag description
+
+church:
+  label: Церковь
+  permalink: /church
+  description: Церковь tag description
+
+christ:
+  label: Христос
+  permalink: /christ
+  description: Христос tag description
+
+ai-ml:
+  label: ИИ
+  permalink: /ai-ml
+  description: Искусственный интеллект tag description
+
+mdx:
+  label: MDX
+  permalink: /mdx
+  description: MDX tag description

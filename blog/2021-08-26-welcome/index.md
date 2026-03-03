@@ -1,13 +1,13 @@
 ---
 slug: welcome
-title: Welcome
+title: Добро пожаловать.
 authors: [lev, shekinah]
 tags: [shekinah, hello, mission]
 ---
 
 [Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).
 
-Here are a few tips you might find useful.
+Добро пожаловать в "Цитадель Духа" Мисси Шехина. Основанной на Школе Христа Берта Кленденнена. Цитадель Духа это дочерний проект Shekinah Cloud Mission & AI WebDev.
 
 <!-- truncate -->
 

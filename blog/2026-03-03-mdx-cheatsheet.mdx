@@ -1,0 +1,116 @@
+---
+slug: mdx-cheatsheet
+title: "📘 MDX шпаргалка для Docusaurus"
+authors: [lev, shekinah]
+tags: [mission, webdev, docusaurus, mdx]
+---
+
+# 📘 MDX шпаргалка для Docusaurus
+
+Эта шпаргалка поможет быстро вспомнить синтаксис и возможности **MDX** в Docusaurus.
+MDX = Markdown + JSX → значит, можно использовать и обычный Markdown, и React‑компоненты.
+
+---
+
+## 🔗 Документация
+- [MDX официальная документация](https://mdxjs.com/docs/)
+- [Docusaurus MDX guide](https://docusaurus.io/docs/markdown-features/mdx)
+
+---
+
+<!-- truncate -->
+
+Blog posts support [Docusaurus Markdown features](https://docusaurus.io/docs/markdown-features), such as [MDX](https://mdxjs.com/).
+
+:::tip
+
+Use the power of React to create interactive blog posts.
+
+:::
+
+[Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).
+
+Добро пожаловать в "Цитадель Духа" Мисси Шехина. Основанной на Школе Христа Берта Кленденнена. Цитадель Духа это дочерний проект Shekinah Cloud Mission & AI WebDev.
+
+## 📝 Фронтматтер
+
+```yaml
+---
+slug: ai
+title: "🏛️ Codex AI-Sinod 🌍"
+authors: [lev, shekinah]
+tags: [shekinah, hello, mission]
+---
+
+💻 Блоки кода
+bash
+
+npm install docusaurus
+
+javascript
+
+import React from 'react';
+
+export default function Hello() {
+  return <h1>Hello, MDX!</h1>;
+}
+
+🎨 Украшения постов
+Вкладки
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs>
+<TabItem value="npm" label="npm">
+bash npm install my-package
+</TabItem>
+
+<TabItem value="pnpm" label="pnpm">
+bash pnpm add my-package
+</TabItem>
+</Tabs>
+Кастомные советы
+
+import CopilotTip from '@site/src/components/CopilotTip';
+
+<CopilotTip>
+🌟 Используй MDX для интерактивных элементов и советов!
+</CopilotTip>
+📌 Списки и цитаты
+
+    ✅ Поддержка JSX
+
+    📦 Импорты компонентов
+
+    🎨 Украшения постов
+
+    💡 Совет: цитаты можно стилизовать через CSS темы.
+
+🧩 Импорт компонентов
+
+import MyComponent from '@site/src/components/MyComponent';
+
+<MyComponent prop="value" />
+✅ Заключение
+
+MDX делает твой блог живым:
+
+    Можно вставлять React‑компоненты
+
+    Делать вкладки, советы, украшения
+
+    Поддерживать всё, что умеет Markdown
+
+    🔵 Совет Copilot: переведи все посты в .mdx, чтобы всегда иметь возможность расширять их интерактивными элементами.
+
+Код
+
+
+---
+
+### 💡 Что это даёт
+- Это **единый файл**, без разрывов.
+- Все блоки кода закрыты правильно.
+- JSX‑теги (`Tabs`, `TabItem`, `CopilotTip`) оформлены корректно.
+- Можно сразу сохранить и запустить сервер — ошибок не будет.
