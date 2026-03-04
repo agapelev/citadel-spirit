@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Цитадель Духа',
   tagline: 'Симбиоз веры, кода и технологий будущего',
-  favicon: 'https://pub-eb64310187344c16be3fdbb9b74d75dc.r2.dev/img/logo.webp',
+  favicon: 'https://pub-eb64310187344c16be3fdbb9b74d75dc.r2.dev/img/logo-ms-sock.webp',
 
   // Меры предосторожности: предупреждать, но не прерывать билд
   onBrokenLinks: 'warn',
@@ -69,7 +69,7 @@ const config: Config = {
     },
     navbar: {
       title: 'Цитадель Духа',
-      logo: { src: 'img/logo.svg' },
+      logo: { src: 'https://pub-eb64310187344c16be3fdbb9b74d75dc.r2.dev/img/logo-ms-sock.webp' },
       items: [
         { type: 'docSidebar', sidebarId: 'tutorialSidebar', position: 'left', label: 'Обучение' },
         { to: '/blog', label: 'Блог Мыслей', position: 'left' },
