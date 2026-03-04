@@ -2,7 +2,7 @@ lev:
   name: Lev Dessyatykh
   title: Web Developer & Engineer, Founder Web Development Web Arystan
   url: https://analog-bloger.pages.dev/blog
-  image_url: img/l.jpg
+  image_url: https://pub-eb64310187344c16be3fdbb9b74d75dc.r2.dev/img/it.webp
   page: true
   socials:
     x: agapelev
@@ -14,7 +14,7 @@ shekinah:
   name: Shekinah Cloud Mission
   title: Shekinah Cloud Mission & School of Christ
   url: https://shekinah-6sz.pages.dev/
-  image_url: img/logo.jpg
+  image_url: https://pub-eb64310187344c16be3fdbb9b74d75dc.r2.dev/img/logo.webp
   page:
     # customize the url of the author page at /blog/authors/<permalink>
     permalink: '/all-lev-shekinah-articles'

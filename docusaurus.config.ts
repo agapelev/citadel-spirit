@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Цитадель Духа',
   tagline: 'Симбиоз веры, кода и технологий будущего',
-  favicon: 'img/logo.svg',
+  favicon: 'https://pub-eb64310187344c16be3fdbb9b74d75dc.r2.dev/img/logo.webp',
 
   // Меры предосторожности: предупреждать, но не прерывать билд
   onBrokenLinks: 'warn',
