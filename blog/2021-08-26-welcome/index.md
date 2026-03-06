@@ -11,19 +11,19 @@ tags: [shekinah, hello, mission]
 
 <!-- truncate -->
 
-Simply add Markdown files (or folders) to the `blog` directory.
+Просто добавьте файлы (или папки) в формате Markdown. в каталог  `blog`.
 
-Regular blog authors can be added to `authors.yml`.
+Постоянных авторов блога можно добавить в `authors.yml`.
 
-The blog post date can be extracted from filenames, such as:
+Дату публикации в блоге можно извлечь из имен файлов, например:
 
 - `2019-05-30-welcome.md`
 - `2019-05-30-welcome/index.md`
 
-A blog post folder can be convenient to co-locate blog post images:
+Папка для записей блога может быть удобна для размещения изображений к записям: 
 
-![Docusaurus Plushie](https://pub-eb64310187344c16be3fdbb9b74d75dc.r2.dev/img/cross.webp)
+![Docusaurus Plushie](https://pub-eb64310187344c16be3fdbb9b74d75dc.r2.dev/img/lev-copilot.webp)
 
-The blog supports tags as well!
+Блог также поддерживает теги! !
 
-**And if you don't want a blog**: just delete this directory, and use `blog: false` in your Docusaurus config.
+**А если вам не нужен блог**: просто удалите эту директорию и используйте, или `blog: false` в вашем файле конфигурации Docusaurus.

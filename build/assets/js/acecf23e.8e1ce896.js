@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunk_agapelev_citadel_spirit=globalThis.webpackChunk_agapelev_citadel_spirit||[]).push([[1903],{1912(a){a.exports=JSON.parse('{"blogBasePath":"/blog","blogTitle":"Blog","authorsListPath":"/blog/authors"}')}}]);
