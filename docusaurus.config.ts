@@ -83,7 +83,7 @@ const config: Config = {
           title: 'Экосистема Shekinah',
           items: [
             { label: 'Shekinah Cloud', href: 'https://shekinah-6sz.pages.dev' },
-            { label: 'Shekinah Academy', href: 'https://mission-shekinah.netlify.app' },
+            { label: 'Shekinah School', href: 'https://citadel-school.pages.dev/' },
             { label: 'Shekinah Blog', href: 'https://shekinah-6sz.pages.dev/blog' },
             { label: 'Analog Bloger', href: 'https://analog-bloger.pages.dev/blog' },
             { label: 'Shekinah Mission', href: 'https://web-shekinah.vercel.app' },
